@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="red_wine">
+        <item>Bodega La Magdalena</item>
+        <item>Terra d'Uro</item>
+        <item>Halos de Jupiter</item>
+        <item>Chateau Grand Jean</item>
+        <item>Victoria Diez-Caballero</item>
+    </string-array>
+    <string-array name="white_wine">
+        <item>Cantina Diomede</item>
+        <item>Hoffman</item>
+        <item>Alvarez y Dies</item>
+        <item>De Moya</item>
+        <item>Leo Hillinger</item>
+    </string-array>
+    <string-array name="pink_wine">
+        <item>Chopo</item>
+        <item>Sierra Cantabria</item>
+        <item>Cote Mas</item>
+        <item>Sainte Beatrice</item>
+        <item>Sogrape Vinhos</item>
+    </string-array>
+</resources>
