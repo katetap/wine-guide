@@ -5,16 +5,32 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/id_red_wine"
             android:icon="@drawable/ic_glass"
-            android:title="@string/menu_home" />
+            android:title="Красные вина" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/id_white_wine"
             android:icon="@drawable/ic_glass"
-            android:title="@string/menu_gallery" />
+            android:title="Белые вина" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/id_pink_wine"
             android:icon="@drawable/ic_glass"
             android:title="Розовые вина" />
+        <item
+            android:id="@+id/id_dry_wine"
+            android:icon="@drawable/ic_glass"
+            android:title="Сухие вина" />
+        <item
+            android:id="@+id/id_semi_dry_wine"
+            android:icon="@drawable/ic_glass"
+            android:title="Полусухие вина" />
+        <item
+            android:id="@+id/id_sweet_wine"
+            android:icon="@drawable/ic_glass"
+            android:title="Сладкие вина" />
+        <item
+            android:id="@+id/id_semi_sweet_wine"
+            android:icon="@drawable/ic_glass"
+            android:title="Полусладкие вина" />
     </group>
 </menu>

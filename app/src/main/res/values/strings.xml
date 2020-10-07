@@ -9,9 +9,9 @@
 
     <string name="menu_home">Красные вина </string>
     <string name="menu_gallery">Белые вина </string>
-    <string name="menu_slideshow">Слобоалкогольные вина </string>
-<!--<string name="menu_home">Крепкое </string>
-    <string name="menu_gallery">Сухое </string>
-    <string name="menu_slideshow">Полусухое </string>
-    <string name="menu_slideshow">Полусладкое </string> -->
+    <string name="menu_slideshow">Розовые вина </string>
+    <string name="dry_wine">Сухие вина </string>
+    <string name="semi_dry_wine">Полусухие вина  </string>
+    <string name="sweet_wine">Сладкие вина </string>
+    <string name="semi_sweet_wine">Полусладкие вина </string>
 </resources>
