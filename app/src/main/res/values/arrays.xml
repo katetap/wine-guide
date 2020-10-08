@@ -2,7 +2,7 @@
 <resources>
     <string-array name="red_wine">
         <item>Bodega La Magdalena</item>
-        <item>Terra d'Uro</item>
+        <item>Terra d\'Uro</item>
         <item>Halos de Jupiter</item>
         <item>Chateau Grand Jean</item>
         <item>Victoria Diez-Caballero</item>
