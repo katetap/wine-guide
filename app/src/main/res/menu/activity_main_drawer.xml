@@ -5,44 +5,32 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/id_red_wine"
             android:icon="@drawable/ic_glass"
-<<<<<<< Updated upstream
-            android:title="@string/menu_home" />
-=======
-            android:title="@string/red_wine" />
->>>>>>> Stashed changes
+            android:title="Красные вина" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/id_white_wine"
             android:icon="@drawable/ic_glass"
-<<<<<<< Updated upstream
-            android:title="@string/menu_gallery" />
-=======
-            android:title="@string/white_wine" />
->>>>>>> Stashed changes
+            android:title="Белые вина" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/id_pink_wine"
             android:icon="@drawable/ic_glass"
-<<<<<<< Updated upstream
             android:title="Розовые вина" />
-=======
-            android:title="@string/pink_wine" />
         <item
             android:id="@+id/id_dry_wine"
             android:icon="@drawable/ic_glass"
-            android:title="@string/dry_wine" />
+            android:title="Сухие вина" />
         <item
             android:id="@+id/id_semi_dry_wine"
             android:icon="@drawable/ic_glass"
-            android:title="@string/semi_dry_wine" />
+            android:title="Полусухие вина" />
         <item
             android:id="@+id/id_sweet_wine"
             android:icon="@drawable/ic_glass"
-            android:title="@string/sweet_wine" />
+            android:title="Сладкие вина" />
         <item
             android:id="@+id/id_semi_sweet_wine"
             android:icon="@drawable/ic_glass"
-            android:title="@string/semi_sweet_wine" />
->>>>>>> Stashed changes
+            android:title="Полусладкие вина" />
     </group>
 </menu>
