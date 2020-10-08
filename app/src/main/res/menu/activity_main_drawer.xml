@@ -7,14 +7,42 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_glass"
+<<<<<<< Updated upstream
             android:title="@string/menu_home" />
+=======
+            android:title="@string/red_wine" />
+>>>>>>> Stashed changes
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_glass"
+<<<<<<< Updated upstream
             android:title="@string/menu_gallery" />
+=======
+            android:title="@string/white_wine" />
+>>>>>>> Stashed changes
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_glass"
+<<<<<<< Updated upstream
             android:title="Розовые вина" />
+=======
+            android:title="@string/pink_wine" />
+        <item
+            android:id="@+id/id_dry_wine"
+            android:icon="@drawable/ic_glass"
+            android:title="@string/dry_wine" />
+        <item
+            android:id="@+id/id_semi_dry_wine"
+            android:icon="@drawable/ic_glass"
+            android:title="@string/semi_dry_wine" />
+        <item
+            android:id="@+id/id_sweet_wine"
+            android:icon="@drawable/ic_glass"
+            android:title="@string/sweet_wine" />
+        <item
+            android:id="@+id/id_semi_sweet_wine"
+            android:icon="@drawable/ic_glass"
+            android:title="@string/semi_sweet_wine" />
+>>>>>>> Stashed changes
     </group>
 </menu>
