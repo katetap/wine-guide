@@ -7,11 +7,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="red_wine">Красные вина </string>
-    <string name="white_wine">Белые вина </string>
-    <string name="pink_wine">Розовые вина </string>
-    <string name="dry_wine">Сухие вина </string>
-    <string name="semi_dry_wine">Полусухие вина  </string>
-    <string name="sweet_wine">Сладкие вина </string>
-    <string name="semi_sweet_wine">Полусладкие вина </string>
+    <string name="red_wine">Красные вина</string>
+    <string name="white_wine">Белые вина</string>
+    <string name="pink_wine">Розовые вина</string>
+    <string name="dry_wine">Сухие вина</string>
+    <string name="semi_dry_wine">Полусухие вина </string>
+    <string name="sweet_wine">Сладкие вина</string>
+    <string name="semi_sweet_wine">Полусладкие вина</string>
 </resources>

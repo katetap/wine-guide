@@ -24,7 +24,7 @@ import java.util.Arrays;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 private ListView list;
 private String[] array;
-private ArrayAdapter<String> adapter;
+private ArrayAdapter adapter;
 private DrawerLayout drawer;
 
     @Override
@@ -33,7 +33,8 @@ private DrawerLayout drawer;
         setContentView(R.layout.activity_main);
         list = findViewById(R.id.listView);
         array = getResources().getStringArray(R.array.red_wine_array);
-        adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,new ArrayList<String>(Arrays.asList(array)));
+        adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,new ArrayList(Arrays.asList(array)));
+       // adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,array);
         list.setAdapter(adapter);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
