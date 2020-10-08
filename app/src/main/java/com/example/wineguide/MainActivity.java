@@ -6,12 +6,9 @@ import android.view.View;
 import android.view.Menu;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
-
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.core.view.GravityCompat;
 import androidx.navigation.NavController;
@@ -21,7 +18,6 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -30,8 +26,6 @@ private ListView list;
 private String[] array;
 private ArrayAdapter<String> adapter;
 private DrawerLayout drawer;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,8 +43,6 @@ private DrawerLayout drawer;
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-
-
     }
 
     @Override
@@ -60,10 +52,9 @@ private DrawerLayout drawer;
         return true;
     }
 
-
     @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-        int id = menuItem.getItemId();
+    public boolean onNavigationItemSelected( MenuItem item) {
+        int id = item.getItemId();
         if (id == R.id.id_red_wine)
         {
             array = getResources().getStringArray(R.array.red_wine_array);
