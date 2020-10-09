@@ -26,18 +26,20 @@ private ListView list;
 private String[] array;
 private ArrayAdapter adapter;
 private DrawerLayout drawer;
+private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         list = findViewById(R.id.listView);
-        array = getResources().getStringArray(R.array.red_wine_array);
+        array = getResources().getStringArray(R.array.specification_array);
         adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,new ArrayList(Arrays.asList(array)));
        // adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,array);
         list.setAdapter(adapter);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        toolbar.setTitle(R.string.specification);
         drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle= new ActionBarDrawerToggle (this,drawer,toolbar,R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -50,57 +52,57 @@ private DrawerLayout drawer;
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+        toolbar.setTitle(R.string.specification);
         return true;
     }
 
     @Override
     public boolean onNavigationItemSelected( MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.id_red_wine)
+        if (id == R.id.id_specification)
         {
-            array = getResources().getStringArray(R.array.red_wine_array);
+            toolbar.setTitle(R.string.specification);
+            array = getResources().getStringArray(R.array.specification_array);
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
         }
-        else if (id == R.id.id_white_wine)
+        else if (id == R.id.id_classification)
         {
-            array = getResources().getStringArray(R.array.white_wine_array);
+            toolbar.setTitle(R.string.classification);
+            array = getResources().getStringArray(R.array.classification_array);
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
         }
-        else if (id == R.id.id_pink_wine)
+        else if (id == R.id.id_winemaking)
         {
-            array = getResources().getStringArray(R.array.pink_wine_array);
+            toolbar.setTitle(R.string.winemaking);
+            array = getResources().getStringArray(R.array.winemaking_array);
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
         }
-        else if (id == R.id.id_dry_wine)
+        else if (id == R.id.id_culture)
         {
-            array = getResources().getStringArray(R.array.dry_wine_array);
+            toolbar.setTitle(R.string.culture);
+            array = getResources().getStringArray(R.array.culture_array);
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
         }
-        else if (id == R.id.id_semi_dry_wine)
+        else if (id == R.id.id_tasting)
         {
-            array = getResources().getStringArray(R.array.semi_dry_wine_array);
+            toolbar.setTitle(R.string.tasing);
+            array = getResources().getStringArray(R.array.tasing_array);
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
         }
-        else if (id == R.id.id_sweet_wine)
+        else if (id == R.id.id_buy)
         {
-            array = getResources().getStringArray(R.array.sweet_wine_array);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
-        }
-        else if (id == R.id.id_semi_sweet_wine)
-        {
-            array = getResources().getStringArray(R.array.semi_sweet_wine_array);
+            toolbar.setTitle(R.string.buy);
+            array = getResources().getStringArray(R.array.buy_array);
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();

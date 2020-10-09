@@ -5,32 +5,28 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/id_red_wine"
-            android:icon="@drawable/ic_glass"
-            android:title="Красные вина" />
+            android:id="@+id/id_specification"
+            android:icon="@drawable/ic_spec"
+            android:title="@string/specification" />
         <item
-            android:id="@+id/id_white_wine"
-            android:icon="@drawable/ic_glass"
-            android:title="Белые вина" />
+            android:id="@+id/id_classification"
+            android:icon="@drawable/ic_class"
+            android:title="@string/classification" />
         <item
-            android:id="@+id/id_pink_wine"
-            android:icon="@drawable/ic_glass"
-            android:title="Розовые вина" />
+            android:id="@+id/id_winemaking"
+            android:icon="@drawable/ic_work"
+            android:title="@string/winemaking" />
         <item
-            android:id="@+id/id_dry_wine"
-            android:icon="@drawable/ic_glass"
-            android:title="Сухие вина" />
+            android:id="@+id/id_culture"
+            android:icon="@drawable/ic_cul"
+            android:title="@string/culture" />
         <item
-            android:id="@+id/id_semi_dry_wine"
+            android:id="@+id/id_tasting"
             android:icon="@drawable/ic_glass"
-            android:title="Полусухие вина" />
+            android:title="@string/tasing" />
         <item
-            android:id="@+id/id_sweet_wine"
-            android:icon="@drawable/ic_glass"
-            android:title="Сладкие вина" />
-        <item
-            android:id="@+id/id_semi_sweet_wine"
-            android:icon="@drawable/ic_glass"
-            android:title="Полусладкие вина" />
+            android:id="@+id/id_buy"
+            android:icon="@drawable/ic_buy"
+            android:title="@string/buy" />
     </group>
 </menu>

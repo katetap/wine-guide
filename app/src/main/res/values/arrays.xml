@@ -1,52 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="red_wine_array">
-        <item>Bodega La Magdalena</item>
-        <item>Terra d\'Uro</item>
-        <item>Halos de Jupiter</item>
-        <item>Chateau Grand Jean</item>
-        <item>Victoria Diez-Caballero</item>
+    <string-array name="specification_array">
+        <item>Пищевая ценность</item>
+        <item>Каллорийность</item>
+        <item>Срок годности</item>
     </string-array>
-    <string-array name="white_wine_array">
-        <item>Cantina Diomede</item>
-        <item>Hoffman</item>
-        <item>Alvarez y Dies</item>
-        <item>De Moya</item>
-        <item>Leo Hillinger</item>
+    <string-array name="classification_array">
+        <item>Цвет и качество</item>
+        <item>Содержание спирта и сахара</item>
+        <item>Сорт винограда</item>
     </string-array>
-    <string-array name="pink_wine_array">
-        <item>Chopo</item>
-        <item>Sierra Cantabria</item>
-        <item>Cote Mas</item>
-        <item>Sainte Beatrice</item>
-        <item>Sogrape Vinhos</item>
+    <string-array name="winemaking_array">
+        <item>Технология производства</item>
+        <item>Георгафия виноделия</item>
+        <item>Спрос и предложение</item>
     </string-array>
-    <string-array name="dry_wine_array">
-        <item>Ramirez de la Piscina</item>
-        <item>Cantina Diomede</item>
-        <item>Chateau Les Jouberts</item>
-        <item>Alvarez y Diez</item>
-        <item>Chopo</item>
+    <string-array name="culture_array">
+        <item>Винный этикет</item>
+        <item>Выбор бокалов</item>
+        <item>Откупоривание бутылок</item>
     </string-array>
-    <string-array name="semi_dry_wine_array">
-        <item>Montedidio</item>
-        <item>Redwood Vineyards</item>
-        <item>Fetzer</item>
-        <item>Femar Vini</item>
-        <item>California Creek</item>
+    <string-array name="tasing_array">
+        <item>Условие дегустации</item>
+        <item>Этапы дегустации</item>
+        <item>Места для дегустации</item>
     </string-array>
-    <string-array name="sweet_wine_array">
-        <item>Messias</item>
-        <item>Dow\'s</item>
-        <item>Graham\'s Fine Tawny</item>
-        <item>Ningbo Best Spirits</item>
-        <item>Concha y Toro</item>
-    </string-array>
-    <string-array name="semi_sweet_wine_array">
-        <item>Mildiani</item>
-        <item>Freschello</item>
-        <item>Fetzer</item>
-        <item>Marques de Villanueva</item>
-        <item>Mastro Binelli</item>
+    <string-array name="buy_array">
+        <item>Вина до 1000</item>
+        <item>Вина до 3000</item>
+        <item>Вина до 5000</item>
+        <item>Дорогие вина</item>
     </string-array>
 </resources>
