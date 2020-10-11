@@ -1,9 +1,11 @@
 package com.example.wineguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -27,6 +29,7 @@ private String[] array;
 private ArrayAdapter adapter;
 private DrawerLayout drawer;
 private Toolbar toolbar;
+private int category_index;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +49,15 @@ private Toolbar toolbar;
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(MainActivity.this, TextContentActivity.class);
+                intent.putExtra("category", category_index);
+                intent.putExtra("position", i);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -66,6 +78,7 @@ private Toolbar toolbar;
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 0;
         }
         else if (id == R.id.id_classification)
         {
@@ -74,6 +87,7 @@ private Toolbar toolbar;
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 1;
         }
         else if (id == R.id.id_winemaking)
         {
@@ -82,6 +96,7 @@ private Toolbar toolbar;
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 2;
         }
         else if (id == R.id.id_culture)
         {
@@ -90,14 +105,16 @@ private Toolbar toolbar;
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 3;
         }
         else if (id == R.id.id_tasting)
         {
-            toolbar.setTitle(R.string.tasing);
+            toolbar.setTitle("Дегустация");
             array = getResources().getStringArray(R.array.tasing_array);
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 4;
         }
         else if (id == R.id.id_buy)
         {
@@ -106,6 +123,7 @@ private Toolbar toolbar;
             adapter.clear();
             adapter.addAll(array);
             adapter.notifyDataSetChanged();
+            category_index = 5;
         }
         drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

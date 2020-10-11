@@ -23,7 +23,7 @@
         <item
             android:id="@+id/id_tasting"
             android:icon="@drawable/ic_glass"
-            android:title="@string/tasing" />
+            android:title="Дегустация" />
         <item
             android:id="@+id/id_buy"
             android:icon="@drawable/ic_buy"
