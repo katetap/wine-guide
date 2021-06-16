@@ -14,4 +14,9 @@
 - Культура потребления 
 - Дегустация 
 
-На данный момент приложение находится в разработке.
+## Скриншоты экрана
+
+![alt text](Screenshots/screen_1.jpg) 
+![alt text](Screenshots/screen_2.jpg) 
+![alt text](Screenshots/screen_3.jpg) 
+![alt text](Screenshots/screen_4.jpg) 
